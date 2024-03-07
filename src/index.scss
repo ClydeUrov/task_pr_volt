@@ -1,0 +1,21 @@
+$main-background-color: rgba(40, 44, 52, 1);
+$white: rgba(255, 255, 255, 1);
+$black: rgb(0, 0, 0);
+$link-color: rgba(97, 218, 251, 1);
+$reduced-motion: no-preference;
+$font-family: 'Lato', sans-serif;
+$large-font-size: 18px;
+$medium-font-size: 18px;
+
+body {
+  font-family: $font-family;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0, 0, 0),
+    rgb(0, 0, 39),
+    rgb(37, 0, 53)
+  );
+  color: rgb(221, 221, 243);
+}

@@ -1,0 +1,84 @@
+@import '../../index';
+
+.task-list-block {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+
+  h3 {
+    margin-top: 0;
+    cursor: pointer;
+  }
+}
+
+li {
+  background-color: rgb(243, 229, 229);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: $black;
+  border-radius: 10px;
+
+  button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 14px;
+    font-family: 'Lato', sans-serif; // Замените на конкретное значение шрифта
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background: rgb(110, 109, 112);
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1),
+      inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5),
+      0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+    color: rgb(223, 222, 223);
+    transition: background-color 0.6s ease, color 0.6s ease;
+
+    &:focus {
+      box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2),
+        0px 0.5px 1px rgba(0, 0, 0, 0.1),
+        0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+      outline: 0;
+    }
+  }
+
+  div {
+    padding: 25px;
+
+    &:last-child {
+      display: flex;
+      padding: 15px;
+      justify-content: space-between;
+      align-items: center;
+      font-style: normal;
+      font-size: $medium-font-size;
+      background-color: rgb(223, 222, 223);
+      border-radius: 10px;
+
+      p {
+        padding: 6px;
+        border-radius: 10px;
+        margin: 0;
+      }
+    }
+  }
+}
+
+// .button-complit:hover {
+//   background: rgb(215, 251, 222);
+//   color: $black;
+// }
+
+// .button-incomplit:hover {
+//   background: rgb(251, 215, 215);
+//   color: $black;
+// }
