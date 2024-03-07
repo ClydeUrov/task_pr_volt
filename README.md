@@ -9,10 +9,9 @@ Screenshot of a locally deployed site.
 ![Site](src/images/screen.PNG)
 
 
-### StyleLintRC Errors
+### StyleLintRC
 
 Several errors remain due to the application's inability to track multiple colors and animation sequences.
-![Errors](src/images/errors.PNG)
 
 
 # Getting Started with Create React App
