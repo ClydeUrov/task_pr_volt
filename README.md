@@ -1,3 +1,20 @@
+# Todo List
+
+Introducing my Todo List web application, built with the power of Redux for efficient state management. This user-friendly platform allows you to seamlessly organize your tasks and stay on top of your to-do lists. Leveraging the .stylelintrc plugin by @wemake-services, my codebase adheres to high-quality standards, ensuring a clean and maintainable code structure. With Redux, we provide a reliable mechanism to save the state of your lists and todo items, offering a robust and intuitive experience for task management.
+
+
+### Site Image
+
+Screenshot of a locally deployed site.
+![Site](src/images/screen.PNG)
+
+
+### StyleLintRC Errors
+
+Several errors remain due to the application's inability to track multiple colors and animation sequences.
+![Errors](src/images/errors.PNG)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

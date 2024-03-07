@@ -32,7 +32,7 @@ li {
     justify-content: center;
     align-items: center;
     padding: 6px 14px;
-    font-family: 'Lato', sans-serif; // Замените на конкретное значение шрифта
+    font-family: $font-family;
     border-radius: 6px;
     border: none;
     cursor: pointer;
@@ -52,7 +52,9 @@ li {
   }
 
   div {
-    padding: 25px;
+    &:first-child {
+      padding: 25px 25px 0;
+    }
 
     &:last-child {
       display: flex;

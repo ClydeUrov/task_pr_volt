@@ -4,8 +4,10 @@ $black: rgb(0, 0, 0);
 $link-color: rgba(97, 218, 251, 1);
 $reduced-motion: no-preference;
 $font-family: 'Lato', sans-serif;
+$font-family-georgia: 'Georgia', sans-serif;
 $large-font-size: 18px;
 $medium-font-size: 18px;
+$z-index-1: "-1";
 
 body {
   font-family: $font-family;
